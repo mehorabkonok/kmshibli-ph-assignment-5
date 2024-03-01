@@ -230,7 +230,7 @@ document.getElementById('success-popup').style.display = 'none';
 
 nextBtn.addEventListener('click', function () {
 
-    if (userInputOne.value.trim() !== '' || userInputTwo.value.trim() !== '' || userInputThree.value.trim() !== '') {
+    if (userInputOne.value.trim() !== '' && userInputTwo.value.trim() !== '' && userInputThree.value.trim() !== '') {
 
         document.getElementById("header-section").style.display = 'none';
         document.getElementById("main-container-section").style.display = 'none';

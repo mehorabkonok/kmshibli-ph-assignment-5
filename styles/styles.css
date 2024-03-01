@@ -1,0 +1,39 @@
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+#nav-btn:hover,
+#offer-btn:hover {
+  background-color: #1dd10066;
+  color: #1dd100;
+}
+
+#buy-ticket-btn:hover {
+  background-color: #1dd100;
+  color: #ffffff;
+}
+
+.banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 1150px;
+  border-radius: 32px;
+}
+
+#banner-div {
+  position: relative;
+}
+#card-div {
+  position: absolute;
+  bottom: -50px;
+}
+
+.btn-selected {
+  background-color: #1dd100;
+}

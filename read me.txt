@@ -1,0 +1,12 @@
+Functionality of the smart ticketing app.
+
+1.First we need to see which sit has been selected.We can do this by adding an event handler to the sit element which is here a div. 
+
+2.The event handler 'onclick' will trigger a function. The function will have a parameter which will be used to get the id of the target div.The function will get it's id by using this.id as argument in the event handler.
+
+3.Now we have the id of the div element which we clicked. 
+
+
+
+
+
